@@ -74,6 +74,16 @@ df_trans['Drinking*Frequency'] = df['Drinking']*df['frequency']
 df_trans = pd.get_dummies(df_trans, columns=['Disease category'])
 ```
 
+調整batch size  
+```python
+batch_size = 64
+```
+
+調整epoch次數  
+```python
+EPOCHS = 50
+```
+
 區分測試集和驗證集比例  
 ```python
 # train/valid   80/20 ratio
