@@ -12,7 +12,7 @@
 ## 安裝配置環境
 
 ```console
-pip install numpy, pandas, tensorflow, matplotlib, scikit-learn
+pip install numpy, pandas, tensorflow, matplotlib, scikit-learn, matplotlib
 ```
 
 ## 重要模塊輸出/輸入
